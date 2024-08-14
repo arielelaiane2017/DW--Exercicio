@@ -1,0 +1,30 @@
+.card {
+    margin: 0 auto;
+    max-width: 70%; 
+}
+
+.table td,
+.table th {
+    text-align: center;
+}
+
+.tabela {
+    max-height: 58vh;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    display: none;
+}
+
+body {
+    background-color: #555;
+}
+
+td > a {
+    color: black;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+td > a:hover {
+    color: #28a745; 
+}
